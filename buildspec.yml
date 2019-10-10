@@ -1,10 +1,11 @@
-version: 0.2  
-phases:  
+---
+artifacts:
+  files:
+  - "**/*"
+phases:
   install:
+    commands:
+    - "npm install"
     runtime-versions:
-    	noddejs: 10
-    commands:  
-      - npm install  
-artifacts:  
-  files:  
-    - '**/*'
+      noddejs: 10
+version: 0.2
