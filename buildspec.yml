@@ -7,5 +7,5 @@ phases:
     commands:
     - "npm install"
     runtime-versions:
-      noddejs: 10
+      nodejs: 10
 version: 0.2
