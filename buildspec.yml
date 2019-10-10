@@ -1,9 +1,13 @@
 version: 0.2  
 phases:  
-  pre_build:  
+  pre_build:
+    runtime-versions:
+			  noddejs: 10
     commands:  
       - npm install  
-  build:  
+  build:
+    runtime-versions:
+			  noddejs: 10
     commands:  
      # - npm test  
 artifacts:  
