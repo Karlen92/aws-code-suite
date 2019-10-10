@@ -1,15 +1,10 @@
 version: 0.2  
 phases:  
-  pre_build:
+  install:
     runtime-versions:
 	noddejs: 10
     commands:  
       - npm install  
-  build:
-    runtime-versions:
-  	noddejs: 10
-    commands:  
-     # - npm test  
 artifacts:  
   files:  
     - '**/*'
